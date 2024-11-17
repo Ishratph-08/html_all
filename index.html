@@ -9,41 +9,54 @@
 <body style="padding-left: 100px;">
     <h1>Table Elements</h1>
     <hr style=" margin-right:100px;">
-    <table style="border: 2px solid saddlebrown ;">
+    <table>
+        <style>
+            table,
+            th,
+            tr,
+            td { border: 2px solid;
+                border-collapse: collapse;
+            }
+            #poly {
+                background-color: yellowgreen;
+            }
+            #lily{
+                background-color: yellowgreen;
+            }
+        </style>
         <tr>
-            <tr><th style=" border: 2px solid  rgb(48, 2, 49); color:hsl(250, 94%, 51%); background-color:rgb(193, 223, 109);" colspan="5">Student's Info</th></tr>
-            <!-- <th style="background-color: aqua; color:green;" colspan="5">Student's Info</th> -->
-            <th style="background-color: aqua; color:green;">Name</th>
-            <th style="border:2px solid black; background-color:gray ;">Subject</th>
-            <th style="background-color: blueviolet;">Grade</th>
-            <th style="background-color: yellowgreen;">Profile</th>
-            <th style="background-color: rgb(139, 77, 127); color: white;">Edit</th>
+            <tr><th style=" border: 2px solid  rgb(48, 2, 49); color:hsl(250, 94%, 51%); background-color:rgb(240, 172, 172);" colspan="5"><h2>Student's Info</h2></th></tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Grade</th>
+            <th>Profile</th>
+            <th>Edit</th>
         </tr>
-        <tr>
-            <td style="border:2px solid green;">Poly</td>
-            <td style="border:2px solid green ;">Math</td>
-            <td style="border:2px solid green;">A+</td>
+        <tr id="poly">
+            <td>Poly</td>
+            <td>Math</td>
+            <td>A+</td>
             <td style="border:2px solid green; " ><img src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o=" alt="poly" width="50"></td>
             <td style="border: 2px solid "><i class="material-icons">border_color</i></td>
         </tr>
-        <tr>
-            <td style="border:2px solid green;">Mili</td>
-            <td style="border:2px solid green;">Html</td>
-            <td style="border:2px solid green;">A-</td>
+        <tr id="mili">
+            <td>Mili</td>
+            <td>Html</td>
+            <td>A-</td>
             <td style="border:2px solid green;"><img src="https://cdn-icons-png.flaticon.com/128/16512/16512343.png" alt= " Mily"  width="50"></td>
             <td style="border: 2px solid "><i class="material-icons">border_color</i></td>
         </tr>
-        <tr>
-        <td style="border:2px solid green;">Lily</td>
-        <td style="border:2px solid green;">JavaScript</td>
-        <td style="border:2px solid green;">A</td>
+        <tr id="lily">
+        <td>Lily</td>
+        <td>JavaScript</td>
+        <td >A</td>
         <td style="border:2px solid green;"><img src="https://cdn-icons-png.flaticon.com/128/17446/17446833.png" alt="Lily" width="50"></td>
         <td style="border: 2px solid "><i class="material-icons">border_color</i></td>
     </tr>
-        <tr>
-            <td style="border:2px solid green;">Sani</td>
-            <td style="border:2px solid green;">CSS</td>
-            <td style="border:2px solid green;">A+</td>
+        <tr id="sani">
+            <td>Sani</td>
+            <td>CSS</td>
+            <td>A+</td>
             <td style="border:2px solid green;"><img src="https://cdn-icons-png.flaticon.com/128/219/219970.png" alt="Sani" width="50"></td>
             <td style="border: 2px solid "><i class="material-icons">border_color</i></td>
         </tr>
